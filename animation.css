@@ -1,0 +1,142 @@
+.animation{
+    width: 200px;
+    height: 300px;
+    background-color:pink;
+    animation-name: color;
+    animation-duration: 5s ;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-iteration-count:infinite;
+    animation-fill-mode: none;
+    animation-play-state: running ;
+}
+
+@keyframes color{
+    0% {background-color: pink;}
+
+    25%{background-color:blue}
+
+    50%{background-color: chartreuse;}
+
+    75%{background-color:red ;}
+
+    100%{background-color: darkorange;}
+}
+
+.animation h1{
+    font-size: 30px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    animation-name: Move;
+    animation-duration: 7s ;
+    animation-timing-function: linear ;
+    animation-direction: alternate;
+    animation-iteration-count:infinite;
+ 
+}
+
+
+@keyframes Move{
+    front{
+        padding-left: 0%;
+    }
+
+    to{padding-left: 100%;}
+}
+
+.bl2{
+    width: 200px;
+    height: 300px;
+    background-color:pink;
+    animation-name: colon;
+    animation-duration: 5s ;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-iteration-count:infinite;
+    animation-fill-mode: none;
+    animation-play-state: running ;
+    border-radius:50px
+}
+
+@keyframes colon{
+    0% {background-color: rgb(255, 0, 0);}
+
+    25%{background-color:rgb(255, 255, 255)}
+
+    50%{background-color: rgb(0, 255, 21);}
+
+    75%{background-color:rgb(238, 255, 0) ;}
+
+    100%{background-color: rgb(255, 0, 212);}
+}
+
+.bl2 h1{
+    font-size: 30px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    animation-name: Move;
+    animation-duration: 7s ;
+    animation-timing-function: linear ;
+    animation-direction: alternate;
+    animation-iteration-count:infinite;
+ 
+}
+
+
+@keyframes Move{
+    front{
+        padding-left: 0%;
+    }
+
+    to{padding-left: 100%;}
+}
+.bl1{
+    width: 200px;
+    height: 300px;
+    background-color:pink;
+    animation-name: colob;
+    animation-duration: 5s ;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-iteration-count:infinite;
+    animation-fill-mode: none;
+    animation-play-state: running ;
+    border-radius:200px
+    
+}
+
+@keyframes colob{
+    0% {background-color: pink;}
+
+    25%{background-color:blue}
+
+    50%{background-color: rgb(173, 104, 0);}
+
+    75%{background-color:rgb(142, 0, 185) ;}
+
+    100%{background-color: rgb(0, 247, 255);}
+}
+
+.bl1 h1{
+    font-size: 30px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    animation-name: Move;
+    animation-duration: 7s ;
+    animation-timing-function: linear ;
+    animation-direction: alternate;
+    animation-iteration-count:infinite;
+ 
+}
+
+
+@keyframes Move{
+    front{
+        padding-left: 0%;
+    }
+
+    to{padding-left: 100%;}
+}
